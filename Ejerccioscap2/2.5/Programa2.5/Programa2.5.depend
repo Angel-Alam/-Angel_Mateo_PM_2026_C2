@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1779485010 source:c:\users\alam\onedrive\escritorio\programacion para mecatronicos\ejerccioscap2\2.5\programa2.5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
