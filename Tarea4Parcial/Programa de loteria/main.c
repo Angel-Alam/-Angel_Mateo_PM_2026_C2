@@ -1,10 +1,13 @@
-#include <stdio.h>
-// creando menu interactivo de mi loreria
 
+#include <stdio.h>
+// comense  a agrgar Arreglos para almacenar numeros y montos de apuestas
 const int MAX = 100;
-int main()
+
+int main(void)
 {
-    int OPCION, CANTIDAD = 0;// validacion yconf cantidad de jugadas
+    int OPCION, CANTIDAD = 0, I;
+    int JUGADAS[MAX];
+    float MONTOS[MAX];
 
     do
     {
@@ -24,7 +27,23 @@ int main()
                 }
                 else
                 {
-                    printf("\n(Captura de jugadas pendiente)\n");
+                    for (I = 0; I < CANTIDAD; I++)
+                    {
+                        do
+                        {
+                            printf("\nJugada %d - Ingrese el numero a jugar (1 a 40): ", I + 1);
+                            scanf("%d", &JUGADAS[I]);
+                        }
+                        while (JUGADAS[I] < 1 || JUGADAS[I] > 40);
+
+                        do
+                        {
+                            printf("Ingrese la cantidad de dinero a jugar: ");
+                            scanf("%f", &MONTOS[I]);
+                        }
+                        while (MONTOS[I] <= 0);
+                    }
+                    printf("\n(Sorteo pendiente)\n");
                 }
                 break;
 
