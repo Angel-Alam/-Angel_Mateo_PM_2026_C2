@@ -1,14 +1,18 @@
-
 #include <stdio.h>
-// comense  a agrgar Arreglos para almacenar numeros y montos de apuestas
+#include <stdlib.h>
+#include <time.h>
+// puse libreria de time para la logica final de numeros aleatorios
+//y calcular lo premio
 const int MAX = 100;
 
 int main(void)
 {
-    int OPCION, CANTIDAD = 0, I;
+    int OPCION, CANTIDAD = 0, I, GANADOR; // validacion yconf cantidad de jugadas
     int JUGADAS[MAX];
-    float MONTOS[MAX];
+    float MONTOS[MAX], PREMIO_TOTAL;
 
+    srand(time(NULL));
+// creando menu interactivo de mi loreria
     do
     {
         printf("\n--- MENU DE LOTERIA ---\n");
@@ -43,7 +47,32 @@ int main(void)
                         }
                         while (MONTOS[I] <= 0);
                     }
-                    printf("\n(Sorteo pendiente)\n");
+
+                    GANADOR = (rand() % 40) + 1;
+                    printf("\n*** SORTEO ***\n");
+                    printf("El numero ganador de la loteria es: %d\n", GANADOR);
+
+                    PREMIO_TOTAL = 0.0;
+
+                    for (I = 0; I < CANTIDAD; I++)
+                    {
+                        if (JUGADAS[I] == GANADOR)
+                        {
+                            printf("\n¡Felicidades! Acertaste en la jugada %d.", I + 1);
+                            PREMIO_TOTAL += (MONTOS[I] * 1000.0);
+                        }
+                    }
+
+                    if (PREMIO_TOTAL > 0)
+                    {
+                        printf("\nEl premio total ganado es: %.2f\n", PREMIO_TOTAL);
+                    }
+                    else
+                    {
+                        printf("\nNo hubo suerte esta vez. Sigue intentando.\n");
+                    }
+
+                    CANTIDAD = 0;
                 }
                 break;
 
