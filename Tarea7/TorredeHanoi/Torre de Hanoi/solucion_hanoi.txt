@@ -1,0 +1,15 @@
+Movimiento 1: Mover disco de la torre A a la torre B
+Movimiento 2: Mover disco de la torre A a la torre C
+Movimiento 3: Mover disco de la torre B a la torre C
+Movimiento 4: Mover disco de la torre A a la torre B
+Movimiento 5: Mover disco de la torre C a la torre A
+Movimiento 6: Mover disco de la torre C a la torre B
+Movimiento 7: Mover disco de la torre A a la torre B
+Movimiento 8: Mover disco de la torre A a la torre C
+Movimiento 9: Mover disco de la torre B a la torre C
+Movimiento 10: Mover disco de la torre B a la torre A
+Movimiento 11: Mover disco de la torre C a la torre A
+Movimiento 12: Mover disco de la torre B a la torre C
+Movimiento 13: Mover disco de la torre A a la torre B
+Movimiento 14: Mover disco de la torre A a la torre C
+Movimiento 15: Mover disco de la torre B a la torre C
