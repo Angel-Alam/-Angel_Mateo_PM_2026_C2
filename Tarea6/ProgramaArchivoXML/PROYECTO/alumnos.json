@@ -1,0 +1,62 @@
+[
+    {
+        "Nombre": "Carlos",
+        "Apellido": "Rodriguez",
+        "Promedio": 9.2,
+        "Materia": "Circuitos Logicos"
+    },
+    {
+        "Nombre": "Maria",
+        "Apellido": "Gomez",
+        "Promedio": 8.5,
+        "Materia": "Programacion en C"
+    },
+    {
+        "Nombre": "Luis",
+        "Apellido": "Martinez",
+        "Promedio": 7.8,
+        "Materia": "Automatizacion Industrial"
+    },
+    {
+        "Nombre": "Ana",
+        "Apellido": "Fernandez",
+        "Promedio": 9.5,
+        "Materia": "Microcontroladores"
+    },
+    {
+        "Nombre": "Jose",
+        "Apellido": "Lopez",
+        "Promedio": 8.0,
+        "Materia": "Calculo Diferencial"
+    },
+    {
+        "Nombre": "Laura",
+        "Apellido": "Diaz",
+        "Promedio": 9.0,
+        "Materia": "Fisica Mecanica"
+    },
+    {
+        "Nombre": "David",
+        "Apellido": "Perez",
+        "Promedio": 7.5,
+        "Materia": "Sistemas de Control"
+    },
+    {
+        "Nombre": "Sofia",
+        "Apellido": "Garcia",
+        "Promedio": 8.8,
+        "Materia": "Robotica Aplicada"
+    },
+    {
+        "Nombre": "Miguel",
+        "Apellido": "Sanchez",
+        "Promedio": 8.2,
+        "Materia": "Diseno CAD"
+    },
+    {
+        "Nombre": "Elena",
+        "Apellido": "Romero",
+        "Promedio": 9.6,
+        "Materia": "Mecanica de Fluidos"
+    }
+]

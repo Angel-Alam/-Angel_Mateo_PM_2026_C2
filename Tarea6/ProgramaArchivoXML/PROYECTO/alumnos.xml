@@ -1,0 +1,63 @@
+XML
+<Alumnos>
+    <Alumno>
+        <Nombre>Carlos</Nombre>
+        <Apellido>Rodriguez</Apellido>
+        <Promedio>9.2</Promedio>
+        <Materia>Circuitos Logicos</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Maria</Nombre>
+        <Apellido>Gomez</Apellido>
+        <Promedio>8.5</Promedio>
+        <Materia>Programacion en C</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Luis</Nombre>
+        <Apellido>Martinez</Apellido>
+        <Promedio>7.8</Promedio>
+        <Materia>Automatizacion Industrial</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Ana</Nombre>
+        <Apellido>Fernandez</Apellido>
+        <Promedio>9.5</Promedio>
+        <Materia>Microcontroladores</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Jose</Nombre>
+        <Apellido>Lopez</Apellido>
+        <Promedio>8.0</Promedio>
+        <Materia>Calculo Diferencial</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Laura</Nombre>
+        <Apellido>Diaz</Apellido>
+        <Promedio>9.0</Promedio>
+        <Materia>Fisica Mecanica</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>David</Nombre>
+        <Apellido>Perez</Apellido>
+        <Promedio>7.5</Promedio>
+        <Materia>Sistemas de Control</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Sofia</Nombre>
+        <Apellido>Garcia</Apellido>
+        <Promedio>8.8</Promedio>
+        <Materia>Robotica Aplicada</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Miguel</Nombre>
+        <Apellido>Sanchez</Apellido>
+        <Promedio>8.2</Promedio>
+        <Materia>Diseno CAD</Materia>
+    </Alumno>
+    <Alumno>
+        <Nombre>Elena</Nombre>
+        <Apellido>Romero</Apellido>
+        <Promedio>9.6</Promedio>
+        <Materia>Mecanica de Fluidos</Materia>
+    </Alumno>
+</Alumnos>
