@@ -1,0 +1,4 @@
+ID,Bien,Dano,F,S,P,E,A,V,ER,Clase
+3,Panel Electrico de la nave,Corto circuito clables quemados,5,5,5,5,4,3,600,Normal
+1,Servidor Principal de la Planta,Destrucci¢n total por incendio,5,5,5,5,5,5,1250,Elevado
+2,cortocircuito en el panel de control,se quemo todo el cableado,4,4,4,4,5,5,800,Grande

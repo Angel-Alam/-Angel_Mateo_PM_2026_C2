@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1786823859 source:c:\users\alam\onedrive\escritorio\programacion para mecatronicos\tarea11\finalmosler\mosler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
